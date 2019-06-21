@@ -1,0 +1,5 @@
+<menu id="MainMenu" title="@Strings.MainMenuTitle">
+    <menu-item id="resist" label="@Strings.MenuResist"/>
+    <menu-item id="plant" label="@Strings.MenuPlant"/>
+    <menu-item id="exit" label="@Strings.MenuExit"/>
+</menu>
