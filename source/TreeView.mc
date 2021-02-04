@@ -3,10 +3,6 @@ using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.Timer;
 
-const RESTART_TIMESTAMP_KEY = 0;
-const RESTARTED_TIMES_KEY = 1;
-const RESISTED_TIMES_KEY = 2;
-
 class TreeView extends WatchUi.View {
 
     const image_y_offset = 0;

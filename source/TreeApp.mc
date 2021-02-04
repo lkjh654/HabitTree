@@ -1,5 +1,9 @@
 using Toybox.Application;
 
+const RESTART_TIMESTAMP_KEY = 0;
+const RESTARTED_TIMES_KEY = 1;
+const RESISTED_TIMES_KEY = 2;
+
 class TreeApp extends Application.AppBase {
 
     var view;
@@ -28,10 +32,12 @@ class TreeApp extends Application.AppBase {
     }
 }
 
+(:glance)
 function objectStoreGet(key) {
     return Application.getApp().getProperty(key);
 }
 
+(:glance)
 function objectStorePut(key, value) {
     Application.getApp().setProperty(key, value);
 }
