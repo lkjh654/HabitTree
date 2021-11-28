@@ -1,0 +1,4 @@
+<menu id="ConfirmationMenu" title="@Strings.ConfirmationMenuTitle">
+    <menu-item id="yes" label="@Strings.MenuYes"/>
+    <menu-item id="no" label="@Strings.MenuNo"/>
+</menu>
