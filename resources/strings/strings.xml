@@ -4,4 +4,7 @@
     <string id="MenuResist">Resisted temptation</string>
     <string id="MenuPlant">Plant again</string>
     <string id="MenuExit">Exit</string>
+    <string id="ConfirmationMenuTitle">Confirm?</string>
+    <string id="MenuYes">Yes</string>
+    <string id="MenuNo">No</string>
 </strings>

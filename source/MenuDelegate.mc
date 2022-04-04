@@ -15,7 +15,7 @@ class MenuDelegate extends WatchUi.MenuInputDelegate {
         if(item == :resist) {
             callback.onResist();
         } else if(item == :plant) {
-            callback.onRestart();
+            WatchUi.pushView(new Rez.Menus.ConfirmationMenu(), new ConfirmationMenuDelegate(callback), WatchUi.SLIDE_LEFT);
         } else if(item == :exit) {
             //no-op
         }
