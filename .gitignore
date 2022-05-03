@@ -13,5 +13,8 @@ Thumbs.db
 .classpath
 .project
 
+# Visual Studio Code
+.vscode
+
 # local propeties
 properties.mk
