@@ -6,7 +6,7 @@ using Toybox.Time.Gregorian;
 (:glance)
 class TreeGlanceView extends WatchUi.GlanceView {
 
-    const age_x_offset = 40;
+    const TEXT_MARGIN = 10;
 
     var restartTimestamp;
 
@@ -34,11 +34,11 @@ class TreeGlanceView extends WatchUi.GlanceView {
         var age = days + "d " + hours + "h";
 
         dc.drawText(
-            age_x_offset,
+            TEXT_MARGIN,
             dc.getHeight() / 2,
             Graphics.FONT_SMALL,
             age,
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+            Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
         );
     }
 
